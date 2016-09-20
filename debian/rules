@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+# See debhelper(7) (uncomment to enable)
+# output every command that modifies files on the build system.
+DH_VERBOSE = 1
+
+# We can't do this the standard way, as that would clobber the wxWidgets CXXFLAGS etc settings
+export EXTRA_CPPFLAGS=$(shell dpkg-buildflags --get CPPFLAGS)
+export EXTRA_CFLAGS=$(shell dpkg-buildflags --get CFLAGS)
+export EXTRA_CXXFLAGS=$(shell dpkg-buildflags --get CXXFLAGS)
+export EXTRA_LDFLAGS=$(shell dpkg-buildflags --get LDFLAGS)
+
+%:
+	dh $@  --parallel --with autotools-dev
+
+override_dh_auto_configure:
+	# Disable options that are used in some non-package builds
+	dh_auto_configure -- --disable-symlink --disable-desktop --disable-install_docs --without-builtin_bzip2
+
+override_dh_compress:
+	# Prevent one of the F1-help files being compressed
+	dh_compress --exclude=.hhc

@@ -1,0 +1,4 @@
+?package(4pane):needs="X11" section="Applications/File Management"\
+  icon="/usr/share/4Pane/bitmaps/4PaneIcon32.xpm"\
+  title="4Pane" command="/usr/bin/4Pane"
+ 
