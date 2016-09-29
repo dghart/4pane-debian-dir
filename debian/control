@@ -5,22 +5,22 @@ Maintainer: David Hart <david@4Pane.co.uk>
 Build-Depends: debhelper (>= 9), autotools-dev, libwxgtk3.0-dev, libgtk2.0-dev, liblzma-dev, libbz2-dev, dpkg-dev (>= 1.16.1~)
 Standards-Version: 3.9.8
 Homepage: http://www.4Pane.co.uk
-Vcs-Git: git://git.code.sf.net/p/fourpane/git4pane
-Vcs-browser: http://sourceforge.net/p/fourpane/git4pane/ci/master/tree/
+Vcs-Git: https://git.code.sf.net/p/fourpane/git4pane -b 4.0
+Vcs-browser: https://sourceforge.net/p/fourpane/git4pane/ci/4.0/tree/
 
 Package: 4pane
-Architecture: i386 amd64 hurd-i386
+Architecture: i386 amd64 armel hurd-i386
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: four-pane detailed-list file manager
- 4Pane is a dual twin-pane file manager: directories and files are displayed
+ 4pane is a dual twin-pane file manager: directories and files are displayed
  in separate panes. By default two pairs of these twin-panes are displayed at
  a time, allowing easy dragging or pasting.
  .
- As well as standard file manager things, features include support for
+ As well as standard file manager functions, features include support for
  nfs sshfs and samba, archive management including virtual browsing,
- multiple renaming of files, user-defined tools, a 'terminal emululator', and
- gui access to 'grep' 'find' and 'locate'. Almost all actions, even deletions,
+ multiple renaming of files, user-defined tools, a terminal emulator, and
+ gui access to grep find and locate. Almost all actions, even deletions,
  can be undone and redone.
  .
- 4Pane aims to be highly configurable, fast and fully-featured without bloat.
+ 4pane aims to be highly configurable, fast and fully-featured without bloat.
  

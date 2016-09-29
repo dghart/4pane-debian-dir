@@ -1,11 +1,5 @@
 4pane (4.0-1) unstable; urgency=low
 
-  * Update for 4.0 release
-
- -- David Hart <david@4Pane.co.uk>  Mon, 30 May 2016 10:28:11 +0100
-
-4pane (3.0-1) unstable; urgency=low
-
   * Initial release (Closes: #764482)
 
- -- David Hart <david@4Pane.co.uk>  Mon, 14 Jul 2014 10:14:59 +0100
+ -- David Hart <david@4pane.co.uk>  Fri, 09 Sep 2016 20:15:01 +0100

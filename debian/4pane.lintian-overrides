@@ -1,5 +1,5 @@
 # The 'extra licence' is one of the F1 help files
-4pane binary: extra-license-file usr/share/doc/4pane/Licence.htm
+4pane binary: extra-license-file usr/share/doc/4pane/html/Licence.htm
 
 # The size is correct, the images are just not square ones
 4pane binary: icon-size-and-directory-name-mismatch

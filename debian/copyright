@@ -4,15 +4,11 @@ Upstream-Contact: David Hart <david@4Pane.co.uk>
 Source: http://sourceforge.net/projects/fourpane/files/
 
 Files: *
-Copyright: 2014 David Hart <david@4Pane.co.uk>
-License: GPL-3
-
-Files: debian/*
-Copyright: 2014 David Hart <david@4Pane.co.uk>
+Copyright: 2016 David Hart <david@4Pane.co.uk>
 License: GPL-3
 
 Files: MyGenericDirCtrl.* Misc.* sdk/fswatcher/*
-Copyright: 2014 David Hart <david@4Pane.co.uk>
+Copyright: 2016 David Hart <david@4Pane.co.uk>
 License: wxWindows
 
 Files: bzipstream.* 

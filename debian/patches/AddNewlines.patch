@@ -1,0 +1,20 @@
+Description: Add newlines to two files
+Origin: https://sourceforge.net/p/fourpane/git4pane/ci/f456a75d2bd005230e9238122d41919160351164
+--- a/PACKAGERS
++++ b/PACKAGERS
+@@ -10,4 +10,4 @@
+ --enable-desktop                      Tries to create a 4Pane desktop shortcut
+ --enable-symlink                      Tries to make a 4Pane to 4pane symlink in the install dir
+ 
+-For all of them the default is 'yes'.
+\ No newline at end of file
++For all of them the default is 'yes'.
+--- a/README
++++ b/README
+@@ -2,4 +2,4 @@
+ 
+ Packagers should read the file cunningly called PACKAGERS.
+ 
+-Full documentation is available online at http://www.4Pane.co.uk, or within 4Pane from the menu or by pressing F1.
+\ No newline at end of file
++Full documentation is available online at http://www.4Pane.co.uk, or within 4Pane from the menu or by pressing F1.

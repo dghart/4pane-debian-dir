@@ -1,7 +1,10 @@
 #!/usr/bin/make -f
-# See debhelper(7) (uncomment to enable)
-# output every command that modifies files on the build system.
+
 DH_VERBOSE = 1
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+DPKG_EXPORT_BUILDFLAGS = 1
+include /usr/share/dpkg/buildflags.mk
 
 # We can't do this the standard way, as that would clobber the wxWidgets CXXFLAGS etc settings
 export EXTRA_CPPFLAGS=$(shell dpkg-buildflags --get CPPFLAGS)
@@ -19,3 +22,9 @@ override_dh_auto_configure:
 override_dh_compress:
 	# Prevent one of the F1-help files being compressed
 	dh_compress --exclude=.hhc
+
+override_dh_installdocs:
+	# Install the F1-help files to doc/html/
+	dh_installdocs
+	mkdir -p debian/4pane/usr/share/doc/4pane/html
+	cp -Rf doc/* debian/4pane/usr/share/doc/4pane/html

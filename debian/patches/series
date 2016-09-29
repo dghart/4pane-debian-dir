@@ -1,0 +1,4 @@
+RemoveDesktopEncoding.patch
+AddDesktopKeywordsEntry.patch
+AddNewlines.patch
+RemoveSpuriousLinesInManpage.patch
