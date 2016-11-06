@@ -1,0 +1,51 @@
+Description: Avoid forkpty hangs in kFreeBSD
+Origin: https://sourceforge.net/p/fourpane/git4pane/ci/b6218acfc6a9390864796765aa2e5a9157d6c9b4
+diff --git a/Devices.cpp b/Devices.cpp
+index a0b3391..89967e0 100644
+--- a/Devices.cpp
++++ b/Devices.cpp
+@@ -1271,8 +1271,11 @@ if (!wxFileExists(BLKID))
+   { BLKID.Clear();
+     if (wxFileExists(wxT("/usr/bin/blkid"))) BLKID = wxT("/usr/bin/blkid");
+      else
+-      { wxArrayString output, errors;
+-        long ans = ExecuteInPty(wxT("which blkid"), output, errors);
++      { wxArrayString output, errors;long ans;
++        if (wxGetOsDescription().Contains(wxT("kFreeBSD"))) // The kFreeBSD forkpty hangs
++          ans = wxExecute(wxT("which blkid"), output, errors);
++         else
++          ans = ExecuteInPty(wxT("which blkid"), output, errors);
+         if (!ans && (output.GetCount() > 0)) { BLKID = output.Item(0); }
+       }
+   }
+@@ -1282,8 +1285,11 @@ if (!wxFileExists(LSBLK))
+   { LSBLK.Clear();
+     if (wxFileExists(wxT("/sbin/lsblk"))) LSBLK = wxT("/sbin/lsblk");
+      else
+-      { wxArrayString output, errors;
+-        long ans = ExecuteInPty(wxT("which lsblk"), output, errors);
++      { wxArrayString output, errors; long ans;
++        if (wxGetOsDescription().Contains(wxT("kFreeBSD")))
++          ans = wxExecute(wxT("which lsblk"), output, errors);
++         else
++          ans = ExecuteInPty(wxT("which lsblk"), output, errors);
+         if (!ans && (output.GetCount() > 0)) { LSBLK = output.Item(0); }
+       }
+   }
+diff --git a/Misc.cpp b/Misc.cpp
+index 7470d5c..8c2098c 100644
+--- a/Misc.cpp
++++ b/Misc.cpp
+@@ -662,6 +662,12 @@ long ExecInPty::ExecuteInPty(const wxString& cmd)
+ {
+ if (cmd.empty()) return ERROR_RETURN_CODE;
+ 
++if (wxGetOsDescription().Contains(wxT("kFreeBSD"))) // The kFreeBSD forkpty hangs
++  { if (GetCallerTextCtrl())
++      InformCallerOnTerminate();
++    return ERROR_RETURN_CODE;
++  }
++
+ #if wxVERSION_NUMBER < 2900
+     ArgsArray argv(wxCmdLineParser::ConvertStringToArgs(cmd));
+ #else
