@@ -1,3 +1,4 @@
+AddExtraM4Files.patch
 PreventkFreeBSDhangs.patch
 RemoveDesktopEncoding.patch
 AddDesktopKeywordsEntry.patch
