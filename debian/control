@@ -9,7 +9,7 @@ Vcs-Git: https://git.code.sf.net/p/fourpane/git4pane -b 4.0
 Vcs-browser: https://sourceforge.net/p/fourpane/git4pane/ci/4.0/tree/
 
 Package: 4pane
-Architecture: i386 amd64 armel hurd-i386
+Architecture: i386 amd64 armel hurd-i386 kfreebsd-amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: four-pane detailed-list file manager
  4pane is a dual twin-pane file manager: directories and files are displayed
