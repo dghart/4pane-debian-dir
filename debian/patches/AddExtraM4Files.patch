@@ -1,5 +1,5 @@
 Description: Add missing m4 macros needed for autoreconf
-Origin: https://sourceforge.net/p/fourpane/git4pane/ci/224a0c0
+Origin: upstream, https://sourceforge.net/p/fourpane/git4pane/ci/224a0c0
 diff --git a/.build/autoconf_inc.m4 b/.build/autoconf_inc.m4
 new file mode 100644
 index 0000000..d71ca44

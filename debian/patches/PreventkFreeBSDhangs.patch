@@ -1,5 +1,5 @@
 Description: Avoid forkpty hangs in kFreeBSD
-Origin: https://sourceforge.net/p/fourpane/git4pane/ci/b6218acfc6a9390864796765aa2e5a9157d6c9b4
+Origin: upstream, https://sourceforge.net/p/fourpane/git4pane/ci/b6218acfc6a9390864796765aa2e5a9157d6c9b4
 diff --git a/Devices.cpp b/Devices.cpp
 index a0b3391..89967e0 100644
 --- a/Devices.cpp

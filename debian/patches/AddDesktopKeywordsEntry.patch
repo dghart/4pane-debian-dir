@@ -1,5 +1,5 @@
 Description: Add the Keywords entry to 4Pane.desktop
-Origin: https://sourceforge.net/p/fourpane/git4pane/ci/7c90c4c
+Origin: upstream, https://sourceforge.net/p/fourpane/git4pane/ci/7c90c4c
 --- a/rc/4Pane.desktop
 +++ b/rc/4Pane.desktop
 @@ -9,3 +9,4 @@

@@ -1,5 +1,5 @@
 Description: Remove a spurious line from the manpage
-Origin: https://sourceforge.net/p/fourpane/git4pane/ci/2369c71e615bb031e39a2bf5750744644a74fff4
+Origin: upstream, https://sourceforge.net/p/fourpane/git4pane/ci/2369c71e615bb031e39a2bf5750744644a74fff4
 --- a/4Pane.1
 +++ b/4Pane.1
 @@ -41,5 +41,4 @@

@@ -1,5 +1,5 @@
 Description: Add newlines to two files
-Origin: https://sourceforge.net/p/fourpane/git4pane/ci/f456a75d2bd005230e9238122d41919160351164
+Origin: upstream, https://sourceforge.net/p/fourpane/git4pane/ci/f456a75d2bd005230e9238122d41919160351164
 --- a/PACKAGERS
 +++ b/PACKAGERS
 @@ -10,4 +10,4 @@
