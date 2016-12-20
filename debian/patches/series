@@ -1,3 +1,4 @@
+Makefile-extraflags.patch
 AddExtraM4Files.patch
 PreventkFreeBSDhangs.patch
 RemoveDesktopEncoding.patch

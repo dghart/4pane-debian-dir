@@ -1,0 +1,20 @@
+Description: Move setting extra (e.g. hardening) compiler/linker flags from rules to Makefile.in
+Author: David Hart (david@4Pane.co.uk)
+diff --git a/Makefile.in b/Makefile.in
+index b940086..19863e7 100644
+--- a/Makefile.in
++++ b/Makefile.in
+@@ -52,7 +52,12 @@ DESTDIR =
+ 	$(BZIP2_FLAGS) $(EXTRA_CFLAGS) $(CFLAGS)
+ 4PANE_CXXFLAGS = $(WX_CXXFLAGS) $(CPPFLAGS) $(EXTRA_CPPFLAGS) $(XZFLAGS) \
+ 	$(BZIP2_FLAGS) $(EXTRA_CXXFLAGS) $(CXXFLAGS)
+-  
++
++EXTRA_CPPFLAGS := $(shell dpkg-buildflags --get CPPFLAGS)
++EXTRA_CFLAGS := $(shell dpkg-buildflags --get CFLAGS)
++EXTRA_CXXFLAGS := $(shell dpkg-buildflags --get CXXFLAGS)
++EXTRA_LDFLAGS := $(shell dpkg-buildflags --get LDFLAGS)
++
+ BZ_OBJECTS =
+ ifneq ($(BZIP2_FLAGS),-DUSE_SYSTEM_BZIP2)
+ BZ_OBJECTS = 4Pane_blocksort.o 4Pane_bzlib.o 4Pane_compress.o 4Pane_crctable.o 4Pane_decompress.o 4Pane_huffman.o 4Pane_randtable.o

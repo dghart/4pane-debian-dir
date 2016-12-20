@@ -6,12 +6,6 @@ export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/buildflags.mk
 
-# We can't do this the standard way, as that would clobber the wxWidgets CXXFLAGS etc settings
-export EXTRA_CPPFLAGS=$(shell dpkg-buildflags --get CPPFLAGS)
-export EXTRA_CFLAGS=$(shell dpkg-buildflags --get CFLAGS)
-export EXTRA_CXXFLAGS=$(shell dpkg-buildflags --get CXXFLAGS)
-export EXTRA_LDFLAGS=$(shell dpkg-buildflags --get LDFLAGS)
-
 %:
 	dh $@  --parallel --with autoreconf
 
