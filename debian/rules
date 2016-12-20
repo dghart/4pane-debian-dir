@@ -7,7 +7,7 @@ DPKG_EXPORT_BUILDFLAGS = 1
 include /usr/share/dpkg/buildflags.mk
 
 %:
-	dh $@  --parallel --with autoreconf
+	dh $@
 
 override_dh_auto_configure:
 	ln -s .build/configure.in configure.ac
