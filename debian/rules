@@ -21,6 +21,11 @@ override_dh_compress:
 	# Prevent one of the F1-help files being compressed
 	dh_compress --exclude=.hhc
 
+override_dh_install:
+	# Move the .desktop file to the correct location
+	dh_install
+	(cd debian/4pane/usr/share && mkdir -p applications && mv 4Pane/rc/4Pane.desktop applications)
+
 override_dh_installdocs:
 	# Install the F1-help files to doc/html/
 	dh_installdocs
