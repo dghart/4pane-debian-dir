@@ -1,3 +1,4 @@
+RemoveUnusedBitmapsOfUnknownCopyright.patch
 FindHtmlDocdir.patch
 Makefile-extraflags.patch
 AddExtraM4Files.patch
