@@ -148,7 +148,7 @@ Files: debian/patches/AddExtraM4Files.patch
 License: Expat
 Copyright: Copyright (C) 2003-2007 Vaclav Slavik, David Elliott and others
 
-Files: .build/bakefile.m4 .build/bakefile-lang.m4
+Files: .build/bakefile.m4 .build/bakefile-lang.m4 .build/autoconf_inc.m4
 Copyright: Copyright (C) 2003-2007 Vaclav Slavik, David Elliott and others
 License: Expat
 
