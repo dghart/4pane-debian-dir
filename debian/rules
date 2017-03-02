@@ -10,9 +10,6 @@ include /usr/share/dpkg/buildflags.mk
 	dh $@
 
 override_dh_auto_configure:
-	ln -s .build/configure.in configure.ac
-	dh_update_autotools_config
-	dh_autoreconf aclocal -- -I .build
 
 	# Disable options that are used in some non-package builds
 	dh_auto_configure -- --disable-symlink --disable-desktop --disable-install_docs --without-builtin_bzip2
@@ -31,8 +28,3 @@ override_dh_installdocs:
 	dh_installdocs
 	mkdir -p debian/4pane/usr/share/doc/4pane/html
 	cp -Rf doc/* debian/4pane/usr/share/doc/4pane/html
-
-override_dh_clean:
-	dh_autoreconf_clean
-	rm -f configure.ac
-	dh_clean

@@ -28,11 +28,6 @@ Files: sdk/bzip/*
 Copyright: Julian Seward jseward@bzip.org
 License: bzip2
 
-Files: .build/wxpresets.m4
-Copyright: Francesco Montorsi
-License: wxWindows
-Comment: Originally taken from https://sourceforge.net/projects/wxcode/ and is still in https://sourceforge.net/projects/wxcode/files/wxCode%20CVS/wxCode%20CVS%20repository/wxCode.tar.bz2/
-
 Files: configure
 Copyright: Free Software Foundation, Inc.
 License: GAP-configure
@@ -48,6 +43,25 @@ License: GPL-3+ with Autoconf exception
 Files: install-sh
 Copyright: X Consortium
 License: Expat with X exception
+ Permission is hereby granted, free of charge, to any person obtaining a
+ copy of this software and associated documentation files (the
+ "Software"), to deal in the Software without restriction, including
+ without limitation the rights to use, copy, modify, merge, publish,
+ distribute, sublicense, and/or sell copies of the Software, and to
+ permit persons to whom the Software is furnished to do so, subject to
+ the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included
+ in all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+ .
  Except as contained in this notice, the name of the X Consortium shall
  not be used in advertising or otherwise to promote the sale, use or
  other dealings in this Software without prior written authorization
@@ -141,18 +155,6 @@ License: wxWindows
 Files: debian/*
 Copyright: 2016 David Hart <david@4Pane.co.uk>
 License: GPL-3
-
-Files: debian/patches/AddExtraM4Files.patch
-License: Expat
-Copyright: Copyright (C) 2003-2007 Vaclav Slavik, David Elliott and others
-
-Files: .build/bakefile.m4 .build/bakefile-lang.m4 .build/autoconf_inc.m4
-Copyright: Copyright (C) 2003-2007 Vaclav Slavik, David Elliott and others
-License: Expat
-
-Files: .build/mydatafiles.bkl
-Copyright: Copyright (C) 2003-2007 Vaclav Slavik, modifications David Hart
-License: Expat
 
 License: LGPL-2
  This library is free software; you can redistribute it and/or
@@ -322,26 +324,6 @@ License: bzip2
  .
  Julian Seward, jseward@bzip.org
  bzip2/libbzip2 version 1.0.6 of 6 September 2010
-
-License: Expat
- Permission is hereby granted, free of charge, to any person obtaining a
- copy of this software and associated documentation files (the
- "Software"), to deal in the Software without restriction, including
- without limitation the rights to use, copy, modify, merge, publish,
- distribute, sublicense, and/or sell copies of the Software, and to
- permit persons to whom the Software is furnished to do so, subject to
- the following conditions:
- .
- The above copyright notice and this permission notice shall be included
- in all copies or substantial portions of the Software.
- .
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
- OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
- MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
- IN NO EVENT SHALL THE X CONSORTIUM BE LIABLE FOR ANY CLAIM, DAMAGES OR
- OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
- ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
- OTHER DEALINGS IN THE SOFTWARE.
 
 License: GAP-configure
  This configure script is free software; the Free Software Foundation

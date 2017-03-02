@@ -1,9 +1,9 @@
-RemoveUnusedBitmapsOfUnknownCopyright.patch
 FindHtmlDocdir.patch
 Makefile-extraflags.patch
-AddExtraM4Files.patch
 PreventkFreeBSDhangs.patch
 RemoveDesktopEncoding.patch
 AddDesktopKeywordsEntry.patch
 AddNewlines.patch
 RemoveSpuriousLinesInManpage.patch
+ChangeToAutomakeBuild.patch
+RemoveUnusedBitmapsOfUnknownCopyright.patch
