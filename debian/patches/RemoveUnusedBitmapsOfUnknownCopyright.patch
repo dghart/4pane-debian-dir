@@ -1,6 +1,6 @@
-Description: Don't package several bitmaps of unknown copyright
- The removals will happen automatically as those files are not included in the new automake-based build system.
- This patch makes substitutes for the two that were specifically used.
+Description: Cater for the absence of some now-unpackaged bitmaps of unknown copyright
+ Several bitmaps are not included as their copyright is unknown. This patch
+ removes references to them and substitutes for those specifically used.
 Author: David Hart (david@4Pane.co.uk)
 diff --git a/Configure.cpp b/Configure.cpp
 index bf612c9..680ba09 100644
