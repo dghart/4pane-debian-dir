@@ -1,5 +1,5 @@
-4pane (4.0-1) unstable; urgency=low
+4pane (4.0+dfsg-1) unstable; urgency=low
 
   * Initial release (Closes: #764482)
 
- -- David Hart <david@4pane.co.uk>  Wed, 08 Mar 2017 18:26:32 +0000
+ -- David Hart <david@4pane.co.uk>  Thu, 09 Mar 2017 11:36:32 +0000
