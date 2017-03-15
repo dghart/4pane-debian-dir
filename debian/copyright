@@ -4,20 +4,20 @@ Upstream-Contact: David Hart <david@4Pane.co.uk>
 Source: http://sourceforge.net/projects/fourpane/files/
 
 Files: *
-Copyright: 2007-2016 David Hart <david@4Pane.co.uk>
+Copyright: 2007-2017 David Hart <david@4Pane.co.uk>
 License: GPL-3
 
 Files: MyGenericDirCtrl.* Misc.* sdk/fswatcher/*
-Copyright: Robert Roebling, Harm van der Heijden, Julian Smart.
-  Alterations David Hart <david@4Pane.co.uk>
+Copyright: Robert Roebling, Harm van der Heijden, Julian Smart 2000
+  Alterations David Hart 2003-16
 License: wxWindows
 
 Files: sdk/fswatcher/*
-Copyright: wxWidgets developers. Alterations David Hart <david@4Pane.co.uk>
+Copyright: wxWidgets developers. Alterations David Hart 2012
 License: wxWindows
 
 Files: MyTreeCtrl.*
-Copyright: Alberto Griggio, Otto Wyss, David Hart <david@4Pane.co.uk>
+Copyright: Alberto Griggio, Otto Wyss; David Hart 2016
 License: GPL-3
 
 Files: bzipstream.* 
@@ -25,15 +25,15 @@ Copyright: 2003 Ryan Norton
 License: wxWindows
 
 Files: sdk/bzip/*
-Copyright: Julian Seward jseward@bzip.org
+Copyright: Copyright (C) 1996-2010 Julian Seward <jseward@bzip.org>
 License: bzip2
 
 Files: configure
-Copyright: Free Software Foundation, Inc.
+Copyright: Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.
 License: GAP-configure
 
 Files: config.guess config.sub
-Copyright: Free Software Foundation, Inc.
+Copyright: Copyright 1992-2014 Free Software Foundation, Inc.
 License: GPL-3+ with Autoconf exception
  As a special exception to the GNU General Public License, if you
  distribute this file as part of a program that contains a
@@ -41,7 +41,7 @@ License: GPL-3+ with Autoconf exception
  the same distribution terms that you use for the rest of that program.
 
 Files: install-sh
-Copyright: X Consortium
+Copyright: Copyright (C) 1994 X Consortium
 License: Expat with X exception
  Permission is hereby granted, free of charge, to any person obtaining a
  copy of this software and associated documentation files (the
@@ -84,8 +84,8 @@ License: Chromium
 Comment: See see http://metadata.ftp-master.debian.org/changelogs/main/c/chromium-browser/chromium-browser_55.0.2883.75-1~deb8u1_copyright and the chromium tarball
 
 Files: bitmaps/iceweasel.png 
-Copyright: Uncertain
-License: CC-BY-SA
+Copyright: 2005-2014, Mike Hommey <glandium@debian.org> 1998-2010, Mozilla Project
+License: MPL-2.0
 Comment: See https://addons.mozilla.org/en-gb/firefox/addon/iceweasel-branding/ which says: "Original copyright 2005-2014, Mike Hommey The artwork is copyright Unicko https://wiki.ubuntu.com/IceWeaselIcon" See https://help.ubuntu.com/community/License
 
 Files: bitmaps/libreoffice.png
@@ -151,10 +151,6 @@ Files: bitmaps/fileopen.xpm bitmaps/new_dir.xpm bitmaps/toparent.xpm bitmaps/bac
  bitmaps/include/up.xpm bitmaps/include/cut.xpm bitmaps/include/copy.xpm bitmaps/include/paste.xpm 
 Copyright: wxWidgets developers
 License: wxWindows
-
-Files: debian/*
-Copyright: 2016 David Hart <david@4Pane.co.uk>
-License: GPL-3
 
 License: LGPL-2
  This library is free software; you can redistribute it and/or
