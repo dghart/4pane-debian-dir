@@ -1,5 +1,4 @@
 FindHtmlDocdir.patch
-Makefile-extraflags.patch
 PreventkFreeBSDhangs.patch
 RemoveDesktopEncoding.patch
 AddDesktopKeywordsEntry.patch
