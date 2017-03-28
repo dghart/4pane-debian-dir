@@ -1,6 +1,5 @@
-Description: Don't package several bitmaps of unknown copyright
- The removals will happen automatically as those files are not included in the new automake-based build system.
- This patch makes substitutes for the two that were specifically used.
+Description: For dfsg reasons, change the build system to use automake
+ 4Pane uses Bakefile to create Makefile.in, but this now unmaintained and is not packaged.
 Author: David Hart (david@4Pane.co.uk)
 diff --git a/.build/4Pane.m4 b/.build/4Pane.m4
 index e809712..6e67d8e 100644

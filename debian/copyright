@@ -8,8 +8,10 @@ Copyright: 2007-2017 David Hart <david@4Pane.co.uk>
 License: GPL-3
 
 Files: MyGenericDirCtrl.* Misc.* sdk/fswatcher/*
-Copyright: Robert Roebling, Harm van der Heijden, Julian Smart 2000
-  Alterations David Hart 2003-16
+Copyright: Robert Roebling
+ Harm van der Heijden
+ Julian Smart 2000
+ Alterations David Hart 2003-16
 License: wxWindows
 
 Files: sdk/fswatcher/*
@@ -17,7 +19,9 @@ Copyright: wxWidgets developers. Alterations David Hart 2012
 License: wxWindows
 
 Files: MyTreeCtrl.*
-Copyright: Alberto Griggio, Otto Wyss; David Hart 2016
+Copyright: Alberto Griggio
+ Otto Wyss
+ David Hart 2016
 License: GPL-3
 
 Files: bzipstream.* 
@@ -84,13 +88,15 @@ License: Chromium
 Comment: See see http://metadata.ftp-master.debian.org/changelogs/main/c/chromium-browser/chromium-browser_55.0.2883.75-1~deb8u1_copyright and the chromium tarball
 
 Files: bitmaps/iceweasel.png 
-Copyright: 2005-2014, Mike Hommey <glandium@debian.org> 1998-2010, Mozilla Project
+Copyright: 2005-2014, Mike Hommey <glandium@debian.org>
+ 1998-2010, Mozilla Project
 License: MPL-2.0
 Comment: See https://addons.mozilla.org/en-gb/firefox/addon/iceweasel-branding/ which says: "Original copyright 2005-2014, Mike Hommey The artwork is copyright Unicko https://wiki.ubuntu.com/IceWeaselIcon" See https://help.ubuntu.com/community/License
 
 Files: bitmaps/libreoffice.png
 Copyright: Copyright 2000, 2010 Oracle and/or its affiliates.
-           Copyright (c) 2000, 2010 LibreOffice contributors and/or their affiliates.
+ Copyright (c) 2000, 2010 LibreOffice contributors and/or their
+ affiliates.
 License: MPL-2.0
 Comment: See http://metadata.ftp-master.debian.org/changelogs/main/libr/libreoffice/libreoffice_5.2.4~rc1-1_copyright
 
@@ -105,12 +111,17 @@ License: GPL-2
 Comment: See https://github.com/codebrainz/mousepad/blob/master/COPYING
 
 Files: bitmaps/mate-text-editor.png
-Copyright: Perberos <perberos@gmail.com> Steve Zesch <stevezesch2@gmail.com> Stefano Karapetsas <stefano@karapetsas.com>
+Copyright: Perberos <perberos@gmail.com>
+ Steve Zesch <stevezesch2@gmail.com>
+ Stefano Karapetsas <stefano@karapetsas.com>
 License: GPL-2
 Comment: These are the authors for the upstream project from which this file was obtained. See https://github.com/perberos/mate-text-editor/blob/master/AUTHORS
 
 Files: bitmaps/kwrite.xpm 
-Copyright: (c) 2010 Dominik Haumann <dhaumann kde org> (c) 2001 Christoph Cullmann <cullmann@kde.org> (c) 2001 Joseph Wenninger <jowenn@kde.org> (c) 2001 Anders Lund <anders.lund@lund.tdcadsl.dk>
+Copyright: (c) 2010 Dominik Haumann <dhaumann kde org>
+ (c) 2001 Christoph Cullmann <cullmann@kde.org>
+ (c) 2001 Joseph Wenninger <jowenn@kde.org>
+ (c) 2001 Anders Lund <anders.lund@lund.tdcadsl.dk>
 License: LGPL-2
 Comment: These are the authors for the upstream project from which this file was obtained. See the kwrite section of http://metadata.ftp-master.debian.org/changelogs/main/k/kate/kate_4.8.4-1_copyright
 
@@ -182,9 +193,17 @@ Copyright: Emmanuel Beranger <e2(at!)beranger.com.fr>
 License: GPL-2
 Comment: See http://qgo.sourceforge.net/  qgo-1.5.4-r3.tar.gz/qgo-1.5.4/COPYING AUTHORS
 
-Files: bitmaps/fileopen.xpm bitmaps/new_dir.xpm bitmaps/toparent.xpm bitmaps/back.xpm bitmaps/down.xpm bitmaps/forward.xpm bitmaps/dir_up.xpm 
- bitmaps/include/up.xpm bitmaps/include/cut.xpm bitmaps/include/copy.xpm bitmaps/include/paste.xpm 
+Files: bitmaps/fileopen.xpm bitmaps/new_dir.xpm bitmaps/toparent.xpm
+ bitmaps/back.xpm bitmaps/down.xpm bitmaps/forward.xpm bitmaps/dir_up.xpm
+ bitmaps/include/up.xpm bitmaps/include/cut.xpm bitmaps/include/copy.xpm
+ bitmaps/include/paste.xpm 
 Copyright: wxWidgets developers
+License: wxWindows
+
+Files: .build/wxwin.m4
+Copyright: 2001 wxWidgets developers
+ Francesco Montorsi
+ Bob McCown (Mac-testing)
 License: wxWindows
 
 License: LGPL-2
