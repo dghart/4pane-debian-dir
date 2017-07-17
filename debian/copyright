@@ -193,6 +193,11 @@ Copyright: Emmanuel Beranger <e2(at!)beranger.com.fr>
 License: GPL-2
 Comment: See http://qgo.sourceforge.net/  qgo-1.5.4-r3.tar.gz/qgo-1.5.4/COPYING AUTHORS
 
+Files: bitmaps/abiword.png
+Copyright: Francis J Franklin <fjf@alinameridon.com>
+License: GPL-2+
+Comment: See https://www.abisource.com/viewvc/abiword/trunk/AUTHORS?view=markup
+
 Files: bitmaps/fileopen.xpm bitmaps/new_dir.xpm bitmaps/toparent.xpm
  bitmaps/back.xpm bitmaps/down.xpm bitmaps/forward.xpm bitmaps/dir_up.xpm
  bitmaps/include/up.xpm bitmaps/include/cut.xpm bitmaps/include/copy.xpm
