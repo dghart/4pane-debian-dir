@@ -1,3 +1,11 @@
+4pane (5.0-1) testing; urgency=medium
+
+  * New upstream version.
+    All the previous patches are now redundant and a dfsg tarball is
+    no longer needed.
+
+ -- David Hart <david@4pane.co.uk>  Thu, 20 Jul 2017 15:18:45 +0100
+
 4pane (4.0+dfsg-1) unstable; urgency=low
 
   * Initial release (Closes: #764482)

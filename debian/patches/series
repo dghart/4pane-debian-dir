@@ -1,8 +1,0 @@
-FindHtmlDocdir.patch
-PreventkFreeBSDhangs.patch
-RemoveDesktopEncoding.patch
-AddDesktopKeywordsEntry.patch
-AddNewlines.patch
-RemoveSpuriousLinesInManpage.patch
-ChangeToAutomakeBuild.patch
-RemoveUnusedBitmapsOfUnknownCopyright.patch
