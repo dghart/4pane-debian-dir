@@ -1,3 +1,9 @@
+4pane (5.0-2) UNRELEASED; urgency=medium
+
+  * Use security copyright file URI.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 16 Sep 2018 00:34:33 +0100
+
 4pane (5.0-1) testing; urgency=medium
 
   * New upstream version.
