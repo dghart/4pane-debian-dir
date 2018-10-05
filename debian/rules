@@ -22,6 +22,8 @@ override_dh_install:
 	# Move the .desktop file to the correct location
 	dh_install
 	(cd debian/4pane/usr/share && mkdir -p applications && mv 4Pane/rc/4Pane.desktop applications)
+	(cd debian/4pane/usr/share && mkdir -p metadata && \
+         mv appdata/4Pane.appdata.xml metadata && rm -rf appdata)
 
 override_dh_installdocs:
 	# Install the F1-help files to doc/html/
