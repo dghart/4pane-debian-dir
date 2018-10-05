@@ -2,8 +2,8 @@ Source: 4pane
 Section: x11
 Priority: optional
 Maintainer: David Hart <david@4Pane.co.uk>
-Build-Depends: debhelper (>= 10), wx-common, libwxgtk3.0-dev, libgtk2.0-dev, liblzma-dev, libbz2-dev, gettext, pkg-config, dpkg-dev (>= 1.16.1~)
-Standards-Version: 4.0.0
+Build-Depends: debhelper (>= 11), wx-common, libwxgtk3.0-dev, libgtk2.0-dev, liblzma-dev, libbz2-dev, gettext, pkg-config, dpkg-dev (>= 1.16.1~)
+Standards-Version: 4.2.1
 Homepage: http://www.4Pane.co.uk
 Vcs-Git: https://github.com/dghart/4pane-debian-dir
 Vcs-browser: https://github.com/dghart/4pane-debian-dir/tree/master/
@@ -23,4 +23,3 @@ Description: four-pane detailed-list file manager
  can be undone and redone.
  .
  4pane aims to be highly configurable, fast and fully-featured without bloat.
- 
