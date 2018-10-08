@@ -1,12 +1,13 @@
 4pane (5.0-2) UNRELEASED; urgency=medium
 
   * Depend on the gtk+3 version of wxWidgets: see #894663
+  * Override testsuite-autopkgtest-missing
   * Add an upstream/metadata file
   * Move the appdata.xml file from appdata/ to metadata/
   * Change some links from http: to https:
   * Update to the latest debhelper and policy versions
 
- -- David Hart <david@4pane.co.uk>  Sat, 29 Sep 2018 17:15:58 +0100
+ -- David Hart <david@4pane.co.uk>  Mon, 08 Oct 2018 17:15:58 +0100
 
 4pane (5.0-1) testing; urgency=medium
 
