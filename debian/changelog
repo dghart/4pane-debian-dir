@@ -14,7 +14,10 @@
   * New upstream version.
     All the previous patches are now redundant and a dfsg tarball is
     no longer needed.
-
+  * Bump std-version to 4.0.0, no changes needed
+  * Update copyright file.
+  * Add dependency on gettext, msgfmt is used by upstream build system
+  * Update watch file
  -- David Hart <david@4pane.co.uk>  Thu, 20 Jul 2017 15:18:45 +0100
 
 4pane (4.0+dfsg-1) unstable; urgency=low
