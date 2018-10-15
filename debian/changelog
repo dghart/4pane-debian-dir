@@ -9,7 +9,7 @@
 
  -- David Hart <david@4pane.co.uk>  Mon, 08 Oct 2018 17:15:58 +0100
 
-4pane (5.0-1) testing; urgency=medium
+4pane (5.0-1) unstable; urgency=medium
 
   * New upstream version.
     All the previous patches are now redundant and a dfsg tarball is
