@@ -2,6 +2,7 @@
 
   * Use secure URI in Homepage field.
   * Bump debhelper from old 11 to 12.
+  * Changed vcs type from browser to Git based on URL.
 
  -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 27 Oct 2019 17:52:58 +0000
 

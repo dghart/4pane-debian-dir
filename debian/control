@@ -6,8 +6,7 @@ Build-Depends: debhelper-compat (= 12), wx-common, libwxgtk3.0-gtk3-dev, libgtk-
 Build-Conflicts: libwxbase2.8-dev, libwxgtk3.0-dev
 Standards-Version: 4.2.1
 Homepage: https://www.4Pane.co.uk
-Vcs-Git: https://github.com/dghart/4pane-debian-dir
-Vcs-browser: https://github.com/dghart/4pane-debian-dir/tree/master/
+Vcs-Git: https://github.com/dghart/4pane-debian-dir/tree/master/
 
 Package: 4pane
 Architecture: any
