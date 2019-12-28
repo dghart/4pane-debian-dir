@@ -1,3 +1,21 @@
+4pane (6.0-1) unstable; urgency=medium
+
+  * New upstream release:
+    - The appdata file now installs to the correct location (Closes: 943592).
+  * debian/rules:
+    - Remove unneeded line.
+  * debian/control:
+    - Bump standards to 4.4.1 and remove debian/compat.
+    - Use secure URI in Homepage field.
+    - Add Rules-Requires-Root field.
+  * debian/copyright:
+    - Update for new files.
+  * debian/upstream/metadata:
+    - Remove obsolete fields Name, Contact.
+    - Add Bug-Database, Bug-Submit fields.
+
+ -- David Hart <david@4pane.co.uk>  Sat, 28 Dec 2019 12:20:14 +0000
+
 4pane (5.0-2) unstable; urgency=medium
 
   * Depend on the gtk+3 version of wxWidgets: see #894663
