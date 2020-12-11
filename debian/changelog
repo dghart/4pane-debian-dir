@@ -1,3 +1,20 @@
+4pane (7.0-1) unstable; urgency=medium
+
+  * New upstream release:
+    - Fixes lintian acute-accent-in-manual-page tag.
+  * debian/control:
+    - Bump standards to 4.5.1 and 13
+    - Fix lintian 'cute-field debian/control@source Vcs-browser vs Vcs-Browser'
+  * debian/copyright:
+    - Remove a duplicate entry from d/copyright.
+  * debian/upstream/metadata:
+    - Add missing fields.
+  * debian/source:
+    - remove override which is no longer necessary since the change from
+      'testsuite-autopkgtest-missing' to 'missing-tests-control'.
+
+ -- David Hart <david@4pane.co.uk>  Fri, 11 Dec 2020 11:16:42 +0000
+
 4pane (6.0-1) unstable; urgency=medium
 
   * New upstream release:
