@@ -7,7 +7,7 @@ Files: *
 Copyright: 2007-2019 David Hart <david@4Pane.co.uk>
 License: GPL-3
 
-Files: MyGenericDirCtrl.* Misc.* sdk/fswatcher/*
+Files: MyGenericDirCtrl.* Misc.*
 Copyright: Robert Roebling
  Harm van der Heijden
  Julian Smart 2000
