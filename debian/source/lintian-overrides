@@ -1,0 +1,10 @@
+# The 'extra licence' is one of the F1 help files
+4pane source: extra-license-file [usr/share/doc/4pane/html/Licence.htm]
+
+# The source files are present;
+# it's a side-effect of very-long-line-length-in-source-file
+4pane source: source-is-missing [doc/ConfigureUserDefTools.htm]
+4pane source: source-is-missing [doc/ConfiguringDisplay.htm]
+4pane source: source-is-missing [doc/Mount.htm]
+4pane source: source-is-missing [doc/MultipleRenDup.htm]
+4pane source: source-is-missing [doc/Previews.htm]
