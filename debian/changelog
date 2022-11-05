@@ -3,6 +3,7 @@
   * New upstream release:
     - This version is now compatible with the current wxWidgets. Fixes #1019805
   * debian/control:
+    - Update the Build-Depends wxWidgets version to libwxgtk3.2-dev
     - Bump standards to 4.6.1
   * debian/4pane.lintian-overrides:
     - Transfer an override to d/source/lintian-overrides
@@ -11,7 +12,7 @@
     - Override several source-is-missing false-positives which are
       probably a side-effect of very-long-line-length-in-source-file errors.
 
- -- David Hart <david@4pane.co.uk>  Thu, 03 Nov 2022 11:13:37 +0000
+ -- David Hart <david@4pane.co.uk>  Thu, 05 Nov 2022 11:05:49 +0000
 
 4pane (7.0-1) unstable; urgency=medium
 
